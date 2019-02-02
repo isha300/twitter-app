@@ -38,7 +38,7 @@ GIF created with [Giphy](http://www.giphy.com).
 
 ## Notes
 
-Importing the RestClient Template and showing the timestamp for each tweet based on the information provided in Twitter's API were some of the challenges encountered while building SimpleTweet.
+Importing the RestClient Template and showing the timestamp for each tweet based on the information provided in Twitter's API were some of the challenges encountered while building SimpleTweet. I had to update Android Studio and implement the code to parse a relative twitter date, among other functionalities, to create a holistic Twitter app.  
 
 ## Open-source libraries used
 
