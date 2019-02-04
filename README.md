@@ -10,16 +10,16 @@ Time spent: **11** hours spent in total
 
 The following **required** functionality is completed:
 
-- [ ] User can **compose and post a new tweet**
-  - [ ] User can click a “Compose” icon in the Action Bar on the top right
-  - [ ] User can then enter a new tweet and post this to twitter
-  - [ ] User is taken back to home timeline with **new tweet visible** in timeline
-  - [ ] Newly created tweet should be manually inserted into the timeline and not rely on a full refresh
-  - [ ] User can **see a counter with total number of characters left for tweet** on compose tweet page
+- [x] User can **compose and post a new tweet**
+  - [x] User can click a “Compose” icon in the Action Bar on the top right
+  - [x] User can then enter a new tweet and post this to twitter
+  - [x] User is taken back to home timeline with **new tweet visible** in timeline
+  - [x] Newly created tweet should be manually inserted into the timeline and not rely on a full refresh
+  - [x] User can **see a counter with total number of characters left for tweet** on compose tweet page
 
 The following **optional** features are implemented:
 
-- [ ] User can **pull down to refresh tweets timeline**
+- [x] User can **pull down to refresh tweets timeline**
 - [ ] User is using **"Twitter branded" colors and styles**
 - [ ] User sees an **indeterminate progress indicator** when any background or network task is happening
 - [ ] User can **select "reply" from detail view to respond to a tweet**
@@ -32,7 +32,7 @@ The following **bonus** features are implemented:
 
 - [ ] User can view more tweets as they scroll with infinite pagination
 - [ ] Compose tweet functionality is build using modal overlay
-- [ ] Use Parcelable instead of Serializable using the popular [Parceler library](http://guides.codepath.com/android/Using-Parceler).
+- [x] Use Parcelable instead of Serializable using the popular [Parceler library](http://guides.codepath.com/android/Using-Parceler).
 - [ ] Replace all icon drawables and other static image assets with [vector drawables](http://guides.codepath.com/android/Drawables#vector-drawables) where appropriate.
 - [ ] User can **click a link within a tweet body** on tweet details view. The click will launch the web browser with relevant page opened.
 - [ ] User can view following / followers list through any profile they view.
@@ -45,13 +45,14 @@ The following **bonus** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://media.giphy.com/media/8ccUUIyX7oDqEDRBRr/giphy.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [Giphy](http://www.giphy.com).
 
 ### Notes
 
 Describe any challenges encountered while building the app.
+One challenge encountered while building this app was showing the character count as a tweet was composed; a new dependency and support library was added to Android Studio to incorporate this functionality using a TextInputLayout instead of ConstraintLayout for the Compose activity. 
 
 ## SimpleTweet Part 1
 
